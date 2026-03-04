@@ -97,9 +97,8 @@ chmod +x run.sh
 ```
 
 ### Opsi B — Load dari Docker Image
-
-```bash
 files tar (https://drive.google.com/file/d/1lR-Qj_3yd0ZWHqSAXXtg6NivofHcfz4W/view?usp=sharing)
+```bash
 docker load < lab-lfi-image.tar.gz
 docker run -d --name lab-lfi -p 8083:80 --restart unless-stopped lab-lfi
 ```
